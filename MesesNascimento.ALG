@@ -59,6 +59,9 @@ enquanto dia <> 0 faca
    dias_vida <- dias_vida + dias_mes
    dias_vida <- dias_vida + dia
    escreval(dias_vida)
+   
+   escreval("Dia de nascimento")
+   leia(dia)
 
 fimenquanto
 
