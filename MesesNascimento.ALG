@@ -48,6 +48,10 @@ Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 escreval("Dia de nascimento")
 leia(dia)
+enquanto dia < 0 faca
+         escreval("Informe seu dia de nascimento positivo por favor!")
+         leia(dia)
+fimenquanto
 enquanto dia <> 0 faca
    escreval("Mês de nascimento")
    leia(mes)
@@ -58,8 +62,9 @@ enquanto dia <> 0 faca
    dias_mes := fdias_mes(mes, ano)
    dias_vida <- dias_vida + dias_mes
    dias_vida <- dias_vida + dia
-   escreval(dias_vida)
-   
+   escreval("Você tem ")
+   escreva(dias_vida)
+   escreval(" dias de vida. Parabéns!")
    escreval("Dia de nascimento")
    leia(dia)
 
