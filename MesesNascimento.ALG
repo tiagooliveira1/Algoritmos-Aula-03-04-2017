@@ -26,7 +26,7 @@ senao
               retorne 30
             senao
                  se (mes_calc = 2) entao
-                    se (ano_calc mod 4 = 0) e (ano_calc mod 100 > 0 e (ano_calc mod 400 = 0)  entao
+                    se (ano_calc mod 4 = 0) e (ano_calc mod 100 > 0) e (ano_calc mod 400 = 0) entao
                         retorne 29
                     senao
                         retorne 28
