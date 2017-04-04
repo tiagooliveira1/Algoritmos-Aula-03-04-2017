@@ -7,12 +7,6 @@ Algoritmo "semnome"
 var
 // Seção de Declarações das variáveis
 
-resultado: real
-n: inteiro
-numerousuario: inteiro
-
-anterior_1: real
-anterior_2: real
 
 nome: caracter
 senha: caracter
