@@ -10,19 +10,25 @@ valor: real
 total10: real;
 media: real;
 i: inteiro
+op: caracter
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 // usuario entra com 10 numeros,e sistema calcula a media. ate usuario enjoar
- total10 <- 0
- para i de 1 ate 10 faca
-      escreval("Digite o numero:")
-      leia(valor)
-      total10 <- total10 + valor
- 
- fimpara
-media <- total10 / 10
-escreva("Média: ")
-escreval(media)
+op <-"s"
+enquanto op = "s" faca
+    total10 <- 0
+    para i de 1 ate 10 faca
+         escreval("Digite o numero:")
+         leia(valor)
+         total10 <- total10 + valor
+
+    fimpara
+   media <- total10 / 10
+   escreva("Média: ")
+   escreval(media)
+   escreval("Gostaria de tentar novamente?")
+   leia(op)
+fimenquanto
 
 Fimalgoritmo
